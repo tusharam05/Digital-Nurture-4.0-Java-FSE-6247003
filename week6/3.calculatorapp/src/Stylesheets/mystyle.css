@@ -1,0 +1,13 @@
+.score-card {
+  background-color: #f0f8ff;
+  border: 2px solid #add8e6;
+  padding: 20px;
+  margin: 30px auto;
+  width: 50%;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.score-card h2 {
+  color: #003366;
+}
