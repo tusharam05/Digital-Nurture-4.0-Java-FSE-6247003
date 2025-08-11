@@ -1,0 +1,32 @@
+# Check Git version
+git --version
+
+# Configure Git user
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Verify configuration
+git config --list
+
+# Initialize repository
+mkdir GitDemo
+cd GitDemo
+git init
+
+# Create file
+echo "Welcome to Git Demo!" > welcome.txt
+
+# Check status
+git status
+
+# Add file
+git add welcome.txt
+
+# Commit with Notepad++ as editor
+git commit
+
+# Add remote
+git remote add origin <your-gitlab-repo-url>
+
+# Push to remote
+git push -u origin master
